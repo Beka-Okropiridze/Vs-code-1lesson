@@ -1,0 +1,86 @@
+.left-box {
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-box {
+    width: 200px;
+    height: 200px;
+    background: rebeccapurple;
+}
+.center-box {
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+.wraper-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+/*  awyoba */
+.conteiner {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.tit {
+    font-size: 36px;
+    font-style: bold;
+    opacity: 0.5;
+}
+.block {
+    width: 370px;
+    height: 376px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.blue {
+    background-color: blue;
+}
+.gray {
+    background-color: red;
+}
+.green {
+    background-color: greenyellow; */
+}
+.blockk {
+    display: flex;
+    justify-content: space-between;
+}
+.boqsi {
+    width: 88px;
+    height: 88px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .textp {
+    width: 250px;
+    text-align: center;
+} */
+.satauri {
+    width: 760px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    background-color: antiquewhite;
+}
+/* pseudo classes */
+.block:nth-child(odd) {
+    background-color: azure;
+}
+.block:nth-child(2) .textp {
+    color: blue;
+}
